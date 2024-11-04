@@ -1,19 +1,19 @@
 # sql_challenge
 This Challenge is divided into three parts: data modeling, data engineering, and data analysis.
 
-## Data Modeling
-Inspected the CSV files, and then sketched an Entity Relationship Diagram of the tables using QuickDBD - Data_Modeling.png.
+## Data Modeling.png
+Inspected the CSV files, and then sketched an Entity Relationship Diagram of the tables using QuickDBD.
   
-## Data Engineering
-Created a table schema for each of the six CSV files and completed the following - Data_Engineering.sql:
+## Data Engineering.sql
+Created a table schema for each of the six CSV files and completed the following:
 * Specified the data types, primary keys, foreign keys, and other constraints
 * For the primary keys, verified that the column is unique and created composite keyLinks to an external site., which takes two primary keys to uniquely identify a row
 * Created the tables in the correct order to handle the foreign keys
 * Changed the date format (using Excel) for the "employees.csv" columns "birth_date & hire_date" to YYYY-MM-DD format to sync with PostgresSQL
 * Imported each CSV file into its corresponding SQL table.
 
-## Data Analysis
-Completed the following queries - Data_Analysis.sql:
+## Data Analysis.sql
+Completed the following queries:
 * List the employee number, last name, first name, sex, and salary of each employee.
 * List the first name, last name, and hire date for the employees who were hired in 1986.
 * List the manager of each department along with their department number, department name, employee number, last name, and first name.
