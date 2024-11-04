@@ -13,7 +13,7 @@ Created a table schema for each of the six CSV files and completed the following
 * Imported each CSV file into its corresponding SQL table.
 
 ## Data Analysis
-Completed the following queries - Data_Analysis:
+Completed the following queries - Data_Analysis.sql:
 * List the employee number, last name, first name, sex, and salary of each employee.
 * List the first name, last name, and hire date for the employees who were hired in 1986.
 * List the manager of each department along with their department number, department name, employee number, last name, and first name.
